@@ -42,4 +42,59 @@ body {
   img {
     max-height: 250px;
   }
+
+  #choice-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px
+  }
   
+  button {
+    width: 200px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .button-choice {
+    background-color: black;
+    color: white;
+  }
+
+  .button-choice:hover {
+    opacity: 0.8;
+  
+  }
+
+  input {
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #000;
+  }
+
+  select {
+    height: 32px;
+    width: 100px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #000;
+  }
+
+  #currency {
+    margin-bottom: 16px;
+  }
+
+  .button-conversor {
+    Background-color: green;
+    color: white;
+  }
+
+  
+
+  
+
